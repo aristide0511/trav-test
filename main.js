@@ -1,8 +1,8 @@
 var kingbot = require('./dist').default;
 
-var gameworld = '';
-var email = '';
-var password = '';
+var gameworld = 'com4';
+var email = 'greghi.fumagalli@gmail.com';
+var password = 'Gregorio1';
 // only change if needed
 var sitter_type = ''; // 'sitter' or 'dual'
 var sitter_name = ''; // ingame avatar name
