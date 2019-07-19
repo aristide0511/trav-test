@@ -6,7 +6,7 @@ var password = 'Gregorio1';
 // only change if needed
 var sitter_type = ''; // 'sitter' or 'duals'
 var sitter_name = ''; // ingame avatar name
-var port = $PORT;
+var port = process.env.PORT || 8080;
 
 function main() {
 	kingbot.start_server(gameworld, email, password, sitter_type, sitter_name, port);
