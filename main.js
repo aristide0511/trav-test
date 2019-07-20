@@ -8,11 +8,6 @@ var sitter_type = ''; // 'sitter' or 'duals'
 var sitter_name = ''; // ingame avatar name
 var port = process.env.PORT || 8080;
 
-var http = require("http");
-setInterval(function() {
-    http.get("http://<your app name>.herokuapp.com");
-}, 300000); // every 5 minutes (300000)
-
 function main() {
 	kingbot.start_server(gameworld, email, password, sitter_type, sitter_name, port);
 }
