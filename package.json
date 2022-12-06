@@ -50,7 +50,7 @@
     "preact": "^8.3.1",
     "preact-router": "^2.6.1",
     "public-ip": "^3.1.0",
-    "qs": "^6.5.2",
+    "qs": "^6.7.3",
     "uniqid": "^5.0.3",
     "unistore": "^3.1.0",
     "winston": "^3.1.0",
